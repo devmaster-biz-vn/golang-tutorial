@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	//define arr with size
 	var number [2]int
 	number[0] = 1
 	number[1] = 2
@@ -15,6 +16,9 @@ func main() {
 	for i := 0; i < len(number1); i++ {
 		fmt.Println(number1[i])
 	}
+
+	number2 := [...]int{2, 5, 6, 82, 9, 45}
+	fmt.Println(number2)
 
 	fmt.Println("Loop Array with range:")
 	for index, value := range number1 {
