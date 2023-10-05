@@ -16,5 +16,9 @@ func main() {
 	} else {
 		fmt.Println("Not found key in mapping")
 	}
-
+	//map with key int value int
+	m1 := make(map[int]int)
+	m1[3] = 5
+	m1[5] = 9
+	fmt.Println(m1)
 }
